@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 export default function NonChaseBiz() {
     return (
-        <div className="m-5">
-            <div className="m-5">
+        <>
+            <div className="my-5">
                 <h2 className="text-lg font-semibold">Non-Chase Business Cards</h2>
                 <NavLink to="/question-tree?node=chase-or-not">
                     <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
@@ -20,6 +20,14 @@ export default function NonChaseBiz() {
                     </ul>
                 </div>
             </div>
-        </div>
+            <div className="my-5">
+                <NavLink to="/question-tree?node=non-chase-biz">
+                    <p className="text-blue-600 no-underline hover:underline m-2">View Non-Chase Business Cards</p>
+                </NavLink>
+                <NavLink to="/question-tree?node=cards-worth-burning-five-twenty-four">
+                    <p className="text-blue-600 no-underline hover:underline m-2">View Cards Possibly Worth Burning a 5/24 Slot</p>
+                </NavLink>
+            </div>
+        </>
     );
 }

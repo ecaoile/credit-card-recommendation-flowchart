@@ -33,6 +33,14 @@ export default function ChaseCards() {
                 </div>
                 <div className="m-5"><b>Remember:</b> One Chase card per 3+ months is the recommended sustained velocity, counting both personal and business Chase cards together.</div>
             </div>
+            <div className="m-5">
+                <NavLink to="/question-tree?node=non-chase-biz">
+                    <p className="text-blue-600 no-underline hover:underline">View Non-Chase Business Cards</p>
+                </NavLink>
+                <NavLink to="/question-tree?node=cards-worth-burning-five-twenty-four">
+                    <p className="text-blue-600 no-underline hover:underline">View Cards Possibly Worth Burning a 5/24 Slot</p>
+                </NavLink>
+            </div>
         </div>
     );
 }
