@@ -24,5 +24,5 @@
 //     NotesForUnderFiveTwentyFour
 // }
 
-export type QTreeNode = 'five-twenty-four' | 'chase-or-not' | 'chase-cards' | 'non-chase-biz' | 'cards-worth-burning-five-twenty-four' | 'under-five-twenty-four-notes';
+export type QTreeNode = 'five-twenty-four' | 'chase-or-not' | 'chase-cards' | 'non-chase-biz' | 'cards-worth-burning-five-twenty-four' | 'notes-for-under-five-twenty-four';
 export default QTreeNode;

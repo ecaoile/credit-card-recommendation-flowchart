@@ -2,20 +2,22 @@ import { NavLink } from "react-router-dom";
 
 export default function ChaseOrNot() {
     return (
-        <div className='m-5'>
-            <div className="m-5">
-                <h2 className="text-lg font-semibold">Under-5/24 approach:</h2>
-                <NavLink to="/question-tree?node=five-twenty-four">
+        <>
+            <div className='m-5'>
+            <NavLink to="/question-tree?node=five-twenty-four">
                     <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
-                </NavLink>
-                <ol className="list-decimal list-inside m-5">
-                    <li>
+            </NavLink>
+            </div>
+            <div className="my-5 py-2 border-solid border-4 border-green-500">
+                <h2 className="text-lg font-semibold">Under-5/24 approach:</h2>
+                <ol className="list-decimal list-inside m-4">
+                    <li className="my-3">
                         <b>Apply for a Chase card every 3+ months.</b> Occasionally getting Chase cards faster than that is fine, but repeatedly doing so will greatly heighten Chase Shutdown risk.
                     </li>
-                    <li>
+                    <li className="my-3">
                         Since most business cards don't impact 5/24 (see *** below), <b>get non-Chase business cards whenever you'd like as "spacers" between Chase apps</b>
                     </li>
-                    <li>
+                    <li className="my-3">
                         Consider burning a 5/24 slot on a few select non-Chase personal cards (see below).
                     </li>
                 </ol>
@@ -31,6 +33,6 @@ export default function ChaseOrNot() {
                     <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded my-1 mx-5">Non-Chase</button>
                 </NavLink>
             </div>
-        </div>
+        </>
     )
 }

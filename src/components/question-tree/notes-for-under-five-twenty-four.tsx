@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 export default function NotesForUnderFiveTwentyFour() {
     return (
-        <div className="m-5">
-            <div className="m-5">
+        <>
+            <div className="my-5">
                 <h2 className="text-lg font-semibold">NOTES FOR UNDER 5/24</h2>
                 <NavLink to="/question-tree?node=cards-worth-burning-five-twenty-four">
                     <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
@@ -17,11 +17,11 @@ export default function NotesForUnderFiveTwentyFour() {
                     </ul>
                 </div>
             </div>
-            <div className="">
+            <div className="my-5">
                 <NavLink to="/question-tree?node=five-twenty-four">
                     <p className="text-blue-600 no-underline hover:underline">Return to Top of Question Tree</p>
                 </NavLink>
             </div>
-        </div>
+        </>
     );
 }

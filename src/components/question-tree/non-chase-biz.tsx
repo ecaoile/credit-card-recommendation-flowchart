@@ -21,8 +21,8 @@ export default function NonChaseBiz() {
                 </div>
             </div>
             <div className="my-5">
-                <NavLink to="/question-tree?node=non-chase-biz">
-                    <p className="text-blue-600 no-underline hover:underline m-2">View Non-Chase Business Cards</p>
+                <NavLink to="/question-tree?node=chase-cards">
+                    <p className="text-blue-600 no-underline hover:underline m-2">View Chase Cards</p>
                 </NavLink>
                 <NavLink to="/question-tree?node=cards-worth-burning-five-twenty-four">
                     <p className="text-blue-600 no-underline hover:underline m-2">View Cards Possibly Worth Burning a 5/24 Slot</p>

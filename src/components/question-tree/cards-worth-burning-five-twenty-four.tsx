@@ -19,7 +19,7 @@ export default function CardsWorthBurningFiveTwentyFour() {
                 </div>
             </div>
             <div className="">
-                <NavLink to="/question-tree?node=under-five-twenty-four-notes">
+                <NavLink to="/question-tree?node=notes-for-under-five-twenty-four">
                     <p className="text-blue-600 no-underline hover:underline">View Notes for Under 5/24</p>
                 </NavLink>
             </div>

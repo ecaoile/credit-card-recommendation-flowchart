@@ -23,7 +23,7 @@ function QuestionTreeWalkthrough(props: any) {
                 return <NonChaseBiz />;
             case 'cards-worth-burning-five-twenty-four':
                 return <CardsWorthBurningFiveTwentyFour />
-            case 'under-five-twenty-four-notes':
+            case 'notes-for-under-five-twenty-four':
                 return <NotesForUnderFiveTwentyFour />
         }
     };
