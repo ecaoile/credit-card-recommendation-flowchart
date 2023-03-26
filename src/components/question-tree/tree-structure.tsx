@@ -15,13 +15,14 @@
 // }
 
 // export const treeRoot: TreeNode = new TreeNode(QuestionTreeWalkthrough());
-enum QTreePages {
-    FiveTwentyFour = 1,
-    ChaseOrNot,
-    ChaseCards,
-    NonChaseBiz,
-    WorthBurningFiveTwentyFour,
-    NotesForUnderFiveTwentyFour
-}
+// enum QTreePages {
+//     FiveTwentyFour = 1,
+//     ChaseOrNot,
+//     ChaseCards,
+//     NonChaseBiz,
+//     WorthBurningFiveTwentyFour,
+//     NotesForUnderFiveTwentyFour
+// }
 
-export default QTreePages;
+export type QTreeNode = 'five-twenty-four' | 'chase-or-not' | 'chase-cards' | 'non-chase-biz';
+export default QTreeNode;

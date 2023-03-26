@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import QTreePages from "./tree-structure";
 
 function FiveTwentyFour(props: any) {
     return (
@@ -12,10 +11,10 @@ function FiveTwentyFour(props: any) {
                 </NavLink>
             </div>
             <div className='m-2'>
-                <NavLink to="/question-tree" state={{page: QTreePages.ChaseOrNot}}>
+                <NavLink to="/question-tree?node=chase-or-not">
                     <button className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded my-1 mx-5">Yes</button>
                 </NavLink>
-                <NavLink to="/question-tree" state={{page: QTreePages.ChaseOrNot}}>
+                <NavLink to="/question-tree">
                     <button className="bg-transparent hover:bg-pink-500 text-pink-700 font-semibold hover:text-white py-2 px-4 border border-pink-500 hover:border-transparent rounded my-1 mx-5">No</button>
                 </NavLink>
             </div>

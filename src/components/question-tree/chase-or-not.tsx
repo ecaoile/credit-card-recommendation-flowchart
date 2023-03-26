@@ -1,12 +1,11 @@
 import { NavLink } from "react-router-dom";
-import QTreePages from "./tree-structure";
 
 export default function ChaseOrNot() {
     return (
         <div className='m-5'>
             <div className="m-5">
                 <h2 className="text-lg font-semibold">Under-5/24 approach:</h2>
-                <NavLink to="/question-tree" state={{page: QTreePages.FiveTwentyFour}}>
+                <NavLink to="/question-tree?node=five-twenty-four">
                     <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
                 </NavLink>
                 <ol className="list-decimal list-inside m-5">
@@ -25,10 +24,10 @@ export default function ChaseOrNot() {
                 <h2 className='text-lg'>Are you interested in Chase or non-Chase cards?</h2>
             </div>
             <div className='m-2'>
-                <NavLink to="/question-tree" state={{page: QTreePages.ChaseCards}}>
+                <NavLink to="/question-tree?node=chase-cards">
                     <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded my-1 mx-5">Chase</button>
                 </NavLink>
-                <NavLink to="/question-tree" state={{page: QTreePages.NonChaseBiz}}>
+                <NavLink to="/question-tree?node=non-chase-biz">
                     <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded my-1 mx-5">Non-Chase</button>
                 </NavLink>
             </div>

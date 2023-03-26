@@ -1,12 +1,11 @@
 import { NavLink } from "react-router-dom";
-import QTreePages from "./tree-structure";
 
 export default function NonChaseBiz() {
     return (
         <div className="m-5">
             <div className="m-5">
                 <h2 className="text-lg font-semibold">Non-Chase Business Cards</h2>
-                <NavLink to="/question-tree" state={{page: QTreePages.ChaseOrNot}}>
+                <NavLink to="/question-tree?node=chase-or-not">
                     <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
                 </NavLink>
                 <div className="m-5">
