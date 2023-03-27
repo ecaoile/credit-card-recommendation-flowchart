@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function NonChaseBiz() {
     return (
         <>
-            <div className="my-5">
+            <div className="my-5 py-2 border-solid border-4 border-green-500">
                 <h2 className="text-lg font-semibold">Non-Chase Business Cards</h2>
                 <NavLink to="/question-tree?node=chase-or-not">
                     <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>

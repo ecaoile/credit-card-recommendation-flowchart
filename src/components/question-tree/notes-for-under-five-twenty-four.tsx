@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 export default function NotesForUnderFiveTwentyFour() {
+    // window.scrollTo({ top: 0, behavior: 'smooth' });
     return (
         <>
             <div className="my-5">

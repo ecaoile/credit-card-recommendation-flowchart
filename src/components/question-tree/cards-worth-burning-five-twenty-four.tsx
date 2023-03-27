@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 export default function CardsWorthBurningFiveTwentyFour() {
     return (
-        <div className="m-5">
-            <div className="m-5">
+        <div className="my-5">
+            <div className="py-2 border-solid border-4 border-green-500">
                 <h2 className="text-lg font-semibold">Cards possibly worth burning a 5/24-slot for:</h2>
                 <NavLink to="/question-tree?node=chase-or-not">
                     <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
