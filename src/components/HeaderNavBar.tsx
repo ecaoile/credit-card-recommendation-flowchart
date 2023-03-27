@@ -11,12 +11,12 @@ export default function HeaderNavBar() {
     return (
         <nav className="flex items-center justify-between flex-wrap bg-teal-700 p-6 fixed top-0 w-[100%]">
         <div className="flex items-center flex-shrink-0 text-white mr-6 max-lg:text-center">
-          <ChurnButter className="mx-2" />
-          <NavLink to="/">
+          <NavLink to="/" className="flex max-sm:w-[87%]">
+            <ChurnButter className="mx-2 max-sm:inline-block" />
             <span className="font-semibold text-xl tracking-tight cursor-pointer">Credit Card Recommendation Flowchart</span>
           </NavLink>
         </div>
-        <div className="block lg:hidden my-3 max-lg:mx-auto">
+        <div className="block lg:hidden my-3 max-sm:mx-auto">
           <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
             onClick={() => {toggleNavBar()}}>
             <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>

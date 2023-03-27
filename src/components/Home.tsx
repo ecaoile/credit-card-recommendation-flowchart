@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function Home() {
     return(
-        <div className='App m-5 min-w-[275px] mt-[10rem]'>
+        <div className='App min-w-[275px] max-[495px]:mt-[11rem] max-lg:mt-[9.5rem] mt-[9rem]'>
             <h1 className='text-2xl'>Credit Card Recommendation Flowchart (Mobile Friendly Edition)</h1>
             <h2 className='text-lg'>Credit to the r/churning Reddit community. See original chart <a href="https://m16p-churning.s3.us-east-2.amazonaws.com/Card+Recommendation+Flowchart+Latest.html" className="text-blue-600 no-underline hover:underline" target="_blank" rel="noreferrer">here</a>.</h2>
             <div className='m-5'>

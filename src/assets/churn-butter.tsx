@@ -1,5 +1,6 @@
 export default function ChurnButter(props: any) {
   return (
+      // width="25.3125" height="41.88020875"
       <svg className={props.className} version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="81 60.95833 202.5 335.04167" width="25.3125" height="41.88020875">
       <defs>
         <clipPath id="artboard_clip_path">

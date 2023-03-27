@@ -28,7 +28,7 @@ function QuestionTreeWalkthrough(props: any) {
         }
     };
     return (
-        <div className="App m-5 min-w-[275px] mt-[10rem]">
+        <div className="App min-w-[275px] mt-[11rem]">
             <QuestionTreeComponent />
         </div>
     );
