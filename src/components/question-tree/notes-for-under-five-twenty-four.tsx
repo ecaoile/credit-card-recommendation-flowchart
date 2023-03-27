@@ -5,10 +5,13 @@ export default function NotesForUnderFiveTwentyFour() {
     return (
         <>
             <div className="my-5">
-                <h2 className="text-lg font-semibold">NOTES FOR UNDER 5/24</h2>
                 <NavLink to="/question-tree?node=cards-worth-burning-five-twenty-four">
                     <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
                 </NavLink>
+            </div>
+            <div className="my-5 py-2 border-solid border-4 border-green-500">
+                <h2 className="text-lg font-semibold">NOTES FOR UNDER 5/24</h2>
+
                 <div className="m-5">
                     <ul className="list-disc list-inside m-2">
                         <li><b>Recommended gap between Chase apps (both personal and business) is <u>3+ months</u></b> Occasionally breaking that rule is okay, but doing so repeatedly will greatly heighten Chase's shutdown risk.</li>

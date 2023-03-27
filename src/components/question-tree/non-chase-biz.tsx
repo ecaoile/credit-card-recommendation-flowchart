@@ -3,11 +3,13 @@ import { NavLink } from "react-router-dom";
 export default function NonChaseBiz() {
     return (
         <>
-            <div className="my-5 py-2 border-solid border-4 border-green-500">
-                <h2 className="text-lg font-semibold">Non-Chase Business Cards</h2>
+            <div className="my-5">
                 <NavLink to="/question-tree?node=chase-or-not">
                     <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
                 </NavLink>
+            </div>
+            <div className="my-5 py-2 border-solid border-4 border-green-500">
+                <h2 className="text-lg font-semibold">Non-Chase Business Cards</h2>
                 <div className="m-5">
                     <h3 className="text-md m-2">Use non-Chase business cards as <b>spacers</b> between Chase apps.&nbsp; No card-specific priority order here since it should mostly depend on which cards are at good bonuses, but here are banks to consider along with key rules:</h3>
                     <ul className="list-disc list-inside m-2">
