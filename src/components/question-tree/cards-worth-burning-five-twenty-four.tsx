@@ -1,11 +1,13 @@
 import { NavLink } from "react-router-dom";
+import DownArrow from "../../assets/down-arrow";
+import UpArrow from "../../assets/up-arrow";
 
 export default function CardsWorthBurningFiveTwentyFour() {
     return (
         <>
             <div className="my-5">
                 <NavLink to="/question-tree?node=chase-or-not">
-                    <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
+                    <p className="text-blue-600 no-underline hover:underline">Return to Parent Section <UpArrow className="inline-block" /></p>
                 </NavLink>
             </div>
             <div className="my-5">
@@ -23,7 +25,7 @@ export default function CardsWorthBurningFiveTwentyFour() {
                 </div>
                 <div className="">
                     <NavLink to="/question-tree?node=notes-for-under-five-twenty-four">
-                        <p className="text-blue-600 no-underline hover:underline">View Notes for Under 5/24</p>
+                        <p className="text-blue-600 no-underline hover:underline my-3">View Notes for Under 5/24 <DownArrow className="inline-block" /></p>
                     </NavLink>
                 </div>
             </div>

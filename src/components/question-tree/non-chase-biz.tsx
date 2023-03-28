@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import DownArrow from "../../assets/down-arrow";
+import LeftArrow from "../../assets/left-arrow";
 
 export default function NonChaseBiz() {
     return (
@@ -24,10 +26,10 @@ export default function NonChaseBiz() {
             </div>
             <div className="my-5">
                 <NavLink to="/question-tree?node=chase-cards">
-                    <p className="text-blue-600 no-underline hover:underline m-2">View Chase Cards</p>
+                    <p className="text-blue-600 no-underline hover:underline my-3"><LeftArrow className="inline-block" /> View Chase Cards</p>
                 </NavLink>
                 <NavLink to="/question-tree?node=cards-worth-burning-five-twenty-four">
-                    <p className="text-blue-600 no-underline hover:underline m-2">View Cards Possibly Worth Burning a 5/24 Slot</p>
+                    <p className="text-blue-600 no-underline hover:underline my-3"><DownArrow className="inline-block" />View Cards Possibly Worth Burning a 5/24 Slot</p>
                 </NavLink>
             </div>
         </>

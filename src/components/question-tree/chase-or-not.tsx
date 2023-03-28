@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
+import UpArrow from "../../assets/up-arrow";
 
 export default function ChaseOrNot() {
     return (
         <>
             <div className='m-5'>
             <NavLink to="/question-tree?node=five-twenty-four">
-                    <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
+                    <p className="text-blue-600 no-underline hover:underline">Return to Parent Section <UpArrow className="inline-block" /></p>
             </NavLink>
             </div>
             <div className="my-5 py-2 border-solid border-4 border-green-500">

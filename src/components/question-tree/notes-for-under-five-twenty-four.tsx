@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
+import UpArrow from "../../assets/up-arrow";
 
 export default function NotesForUnderFiveTwentyFour() {
-    // window.scrollTo({ top: 0, behavior: 'smooth' });
     return (
         <>
             <div className="my-5">
                 <NavLink to="/question-tree?node=cards-worth-burning-five-twenty-four">
-                    <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
+                    <p className="text-blue-600 no-underline hover:underline">Return to Parent Section <UpArrow className="inline-block" /></p>
                 </NavLink>
             </div>
             <div className="my-5 py-2 border-solid border-4 border-green-500">
@@ -23,7 +23,7 @@ export default function NotesForUnderFiveTwentyFour() {
             </div>
             <div className="my-5">
                 <NavLink to="/question-tree?node=five-twenty-four">
-                    <p className="text-blue-600 no-underline hover:underline">Return to Top of Question Tree</p>
+                    <p className="text-blue-600 no-underline hover:underline my-3"><UpArrow className="inline-block" /> Return to Top of Question Tree <UpArrow className="inline-block" /></p>
                 </NavLink>
             </div>
         </>

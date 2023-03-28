@@ -1,8 +1,14 @@
 import { NavLink } from "react-router-dom";
+import UpArrow from "../../assets/up-arrow";
 
 function FiveTwentyFour(props: any) {
     return (
         <>
+            <div className="m-5">
+                <NavLink to="/">
+                    <p className="text-blue-600 no-underline hover:underline my-3">Return to Parent Section <UpArrow className="inline-block" /></p>
+                </NavLink>
+            </div>
             <div className="m-5 p-5 bg-blue-50">
             <div className="m-5">
                 <h2 className='text-lg'>Are you under 5/24?</h2>
@@ -16,11 +22,6 @@ function FiveTwentyFour(props: any) {
                     <button className="bg-transparent hover:bg-pink-500 text-pink-700 font-semibold hover:text-white py-2 px-4 border border-pink-500 hover:border-transparent rounded my-1 mx-5">No</button>
                 </NavLink>
             </div>
-            </div>
-            <div className="m-5">
-                <NavLink to="/">
-                    <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
-                </NavLink>
             </div>
         </>
     );

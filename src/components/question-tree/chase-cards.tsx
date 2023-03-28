@@ -1,11 +1,14 @@
 import { NavLink } from "react-router-dom";
+import DownArrow from "../../assets/down-arrow";
+import RightArrow from "../../assets/right-arrow";
+import UpArrow from "../../assets/up-arrow";
 
 export default function ChaseCards() {
     return (
         <>
             <div className="m-5">
             <NavLink to="/question-tree?node=chase-or-not">
-                    <p className="text-blue-600 no-underline hover:underline">Return to Parent Section</p>
+                    <p className="text-blue-600 no-underline hover:underline">Return to Parent Section <UpArrow className="inline-block" /></p>
                 </NavLink>
             </div>
             <div className="my-5 py-2 border-solid border-4 border-green-500">
@@ -38,10 +41,10 @@ export default function ChaseCards() {
             </div>
             <div className="my-5">
                 <NavLink to="/question-tree?node=non-chase-biz">
-                    <p className="text-blue-600 no-underline hover:underline">View Non-Chase Business Cards</p>
+                    <p className="text-blue-600 no-underline hover:underline">View Non-Chase Business Cards <RightArrow className="inline-block" /></p>
                 </NavLink>
                 <NavLink to="/question-tree?node=cards-worth-burning-five-twenty-four">
-                    <p className="text-blue-600 no-underline hover:underline">View Cards Possibly Worth Burning a 5/24 Slot</p>
+                    <p className="text-blue-600 no-underline hover:underline my-3">View Cards Possibly Worth Burning a 5/24 Slot <DownArrow className="inline-block" /></p>
                 </NavLink>
             </div>
         </>
